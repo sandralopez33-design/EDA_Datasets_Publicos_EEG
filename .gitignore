@@ -1,0 +1,140 @@
+# ─────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# ─────────────────────────────────────────
+# Virtual environments
+# ─────────────────────────────────────────
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ─────────────────────────────────────────
+# Jupyter Notebooks
+# ─────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─────────────────────────────────────────
+# DEAP / EEG Dataset files (datos privados)
+# ─────────────────────────────────────────
+data/raw/
+data/processed/
+*.dat
+*.mat
+*.set
+*.fdt
+*.edf
+*.bdf
+*.gdf
+s*.dat
+
+# ─────────────────────────────────────────
+# Datos CSV / Excel grandes
+# ─────────────────────────────────────────
+*.csv
+*.tsv
+*.xlsx
+*.xls
+# Excepciones: permitir archivos de ejemplo pequeños
+!data/examples/*.csv
+!tests/fixtures/*.csv
+
+# ─────────────────────────────────────────
+# Modelos de ML entrenados
+# ─────────────────────────────────────────
+models/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.pb
+checkpoints/
+
+# ─────────────────────────────────────────
+# Figuras y outputs generados
+# ─────────────────────────────────────────
+outputs/
+figures/
+results/
+*.png
+*.jpg
+*.pdf
+*.svg
+*.eps
+# Excepciones: imágenes de README
+!docs/images/*.png
+!assets/*.png
+
+# ─────────────────────────────────────────
+# Logs y reportes
+# ─────────────────────────────────────────
+logs/
+*.log
+*.out
+runs/
+wandb/
+mlruns/
+tensorboard/
+
+# ─────────────────────────────────────────
+# Configuración local y secretos
+# ─────────────────────────────────────────
+.env
+.env.local
+*.env
+config/local.yaml
+secrets.yaml
+credentials.json
+
+# ─────────────────────────────────────────
+# IDEs y editores
+# ─────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.spyproject/
+.spyderproject/
+
+# ─────────────────────────────────────────
+# Sistema operativo
+# ─────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+
+# ─────────────────────────────────────────
+# Cachés de herramientas científicas
+# ─────────────────────────────────────────
+.cache/
+*.npy
+*.npz
+__MNE_cache__/
+mne_data/
